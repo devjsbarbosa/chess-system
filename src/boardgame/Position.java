@@ -31,4 +31,12 @@ public class Position {
         this.column = column;
         this.row = row;
     }
+
+    @Override
+    public String toString() {
+        return "Posção{" +
+                "linha=" + row +
+                ", coluna=" + column +
+                '}';
+    }
 }
